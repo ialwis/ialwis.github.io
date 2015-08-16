@@ -1,0 +1,84 @@
+<!-- Imavi Alwis 212188307 -->
+
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Feedback</title>
+<!-- Below changes the theme and colours of the page, using ThemeRollerJQueryMobile --> 
+<link rel="stylesheet" href="themes/MyThemeTwo.css" />
+<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+<!-- Below code allows the user to adjust the webpage in different platforms --> 
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+
+<!-- Feedback Page -->
+<div id="choisir_ville" data-role="page" data-theme="d" data-add-back-btn="true"<td><img src="Logo.jpeg"style="width:415;height:101px;"/> </td>
+  <div data-role="header" data-position="fixed">
+  <!-- Below DIV tags are used to create a text area for users to type there details that are required -->
+  
+  <!-- <h1> is the title of a post, or other emphasized text on the page. <h1> usually be the largest text that stands out. There are other header tags in HTML too, like an h2, h3, h4 -->
+    <h3>Feedback</h3>
+  </div>
+  <div role="main" class="ui-content">
+    <div class="ui-field-contain">
+      <label for="gk-860BhQ">Customer Name</label> </br>
+	  
+<!--The <ul> tag defines an unordered (bulleted) list. Use the <ul> tag together with the <li> tag to create unordered lists -->
+	  <ul>
+      <textarea id="gk-860BhQ" name></textarea>
+	  </ul>
+    </div>
+	 <div class="ui-field-contain">
+      <label for="gk-860BhQ">Contact Information</label> </br>
+	  <ul>
+      <textarea id="gk-860BhQ" name></textarea>
+	  </ul>
+    </div>
+	 <div class="ui-field-contain">
+      <label for="gk-860BhQ">Feedback</label> </br>
+	  <ul>
+      <textarea id="gk-860BhQ" name></textarea>
+	  </ul>
+    </div>
+	
+	<!-- Below code creates a drop down menu that allows useres to select an option and then submit -->
+	<div id="notation">
+	<form>
+	<label for="select-choice-0" class="select"><h2> User rating </h2></label>
+		<select name="note_utilisateur" id="note_utilisateur" data-native-menu="false" data-theme="c" >
+		   <option value="one" class="one"> Not good at all </option>
+		   <option value="two" class="two">Average </option>
+		   <option value="three" class="three">Pretty good </option>
+		   <option value="four" class="four"> Excellent </option>
+		</select>
+	  
+	</form>
+
+	</div>
+	
+	<!-- Submit button -->
+	<div>
+	<a href="submit.html" class="button">Submit</a><br>
+<a href="Menu2.html" data-transition="flow" data-role="button" data-inline="true" data-icon="home">Home</a>
+
+	</div>
+	
+</div>
+  </div>
+  <div data-role="footer" data-position="fixed">
+    <h3>Alwis</h3>
+  </div>
+</div>
+<!-- Create a link two the main menu page --> 
+<div>
+<form method="get" action="file:///H:/sem2_2015/SIT313/Assignment%201/Menu2.html">
+<button type="submit">Menu </button></form>
+</div>
+
+</body>
+</html>
